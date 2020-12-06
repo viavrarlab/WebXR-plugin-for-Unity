@@ -27,6 +27,7 @@ WebXR has limited support
 
 ![](https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png)
 
+<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="200" >
 
 ## Plugin Input System
 day by day
