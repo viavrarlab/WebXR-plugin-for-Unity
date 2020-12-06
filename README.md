@@ -23,7 +23,9 @@ WebXR has limited support
 | Desktop | Chrome Canary | HTC Vive, HTC Vive Pro, HTC Vive Cosmos, Oculus Rift, Oculus Rift S, Oculus Quest(link), Windows Mixed Reality headsets | Browser flags required. [Setup instructions](https://webvr.rocks/chrome) |
 
 ## Setting up a Unity project for WebXR
-1. Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder
+1. Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebX%Plugin) folder
+
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
 ## Plugin Input System
 day by day
