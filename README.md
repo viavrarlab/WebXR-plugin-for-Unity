@@ -24,10 +24,7 @@ WebXR has limited support
 
 ## Setting up a Unity project for WebXR
 1. Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXRPlugin) folder
-
-![](https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png)
-
-<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="200" >
+<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="300" >
 
 ## Plugin Input System
 day by day
