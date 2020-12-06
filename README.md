@@ -1,7 +1,11 @@
 # WebXR-plugin-for-Unity
+
 This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/MozillaReality/unity-webxr-export)
 
 ## Getting started
+
+- [WebXR-plugin-for-Unity](#webxr-plugin-for-unity)
+  - [Getting started](#getting-started)
   - [Compatibility](#compatibility)
     - [Browser Compatibility](#browser-compatibility)
   - [Setting up a Unity project for WebXR](#setting-up-a-unity-project-for-webxr)
@@ -29,6 +33,7 @@ WebXR has limited support
 2. Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br>
 
 Step by step: ` Assets / Import Package / Costom Package..`
+
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
 
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/2.png" width="400" >
