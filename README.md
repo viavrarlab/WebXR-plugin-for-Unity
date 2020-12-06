@@ -34,6 +34,10 @@ WebXR has limited support
 Step by step: ` Assets / Import Package / Costom Package..`
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
 
+<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/2.png" width="400" >
+
+<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
+
 ## Plugin Input System
 
 day by day
