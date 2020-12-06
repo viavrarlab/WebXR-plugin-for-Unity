@@ -3,9 +3,13 @@ This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/M
 
 ## Getting started
 
-* [Compatibility](#Compatibility)
-* [Setting up a Unity project for WebXR](#SettingupaUnityprojectforWebXR)
-* [Plugin Input System](#PluginInputSystem)
+- [WebXR-plugin-for-Unity](#webxr-plugin-for-unity)
+  - [Getting started](#getting-started)
+  - [Compatibility](#compatibility)
+    - [Browser Compatibility](#browser-compatibility)
+  - [Setting up a Unity project for WebXR](#setting-up-a-unity-project-for-webxr)
+  - [Plugin Input System](#plugin-input-system)
+  - [License](#license)
 
 
 ## Compatibility
@@ -17,21 +21,25 @@ This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/M
 ### Browser Compatibility
 
 WebXR has limited support
-| Platform | Browser | Compatible headsets | Notes |
-| --- | --- | --- | --- |
-| Desktop | Firefox | HTC Vive, HTC Vive Pro, HTC Vive Cosmos, Oculus Rift, Oculus Rift S, Oculus Quest(link), Windows Mixed Reality headsets (using Steam VR) | [Setup instructions](https://webvr.rocks/firefox) |
-| Desktop | Chrome Canary | HTC Vive, HTC Vive Pro, HTC Vive Cosmos, Oculus Rift, Oculus Rift S, Oculus Quest(link), Windows Mixed Reality headsets | Browser flags required. [Setup instructions](https://webvr.rocks/chrome) |
+| Platform | Browser       | Compatible headsets                                                                                                                      | Notes                                                                    |
+| -------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Desktop  | Firefox       | HTC Vive, HTC Vive Pro, HTC Vive Cosmos, Oculus Rift, Oculus Rift S, Oculus Quest(link), Windows Mixed Reality headsets (using Steam VR) | [Setup instructions](https://webvr.rocks/firefox)                        |
+| Desktop  | Chrome Canary | HTC Vive, HTC Vive Pro, HTC Vive Cosmos, Oculus Rift, Oculus Rift S, Oculus Quest(link), Windows Mixed Reality headsets                  | Browser flags required. [Setup instructions](https://webvr.rocks/chrome) |
 
 ## Setting up a Unity project for WebXR
+
 1. Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder
 2. Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br>
-Step by step: `Assets / Import Package / Costom Package..`
-<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="300" >
+
+Step by step: ` Assets / Import Package / Costom Package..`
+<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
 
 ## Plugin Input System
+
 day by day
 
 ## License
+
 As the base project used the Apache License, Version 2.0, we will continue with it.
 
 Copyright 2017 - 2020 Mozilla Corporation
