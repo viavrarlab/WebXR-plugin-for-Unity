@@ -9,6 +9,10 @@ This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/M
   - [Compatibility](#compatibility)
     - [Browser Compatibility](#browser-compatibility)
   - [Setting up a Unity project for WebXR](#setting-up-a-unity-project-for-webxr)
+    - [First step](#first-step)
+    - [Second step](#second-step)
+    - [Third step](#third-step)
+    - [Last step](#last-step)
   - [Plugin Input System](#plugin-input-system)
   - [License](#license)
 
@@ -28,18 +32,21 @@ WebXR has limited support
 | Desktop  | Chrome Canary | HTC Vive, HTC Vive Pro, HTC Vive Cosmos, Oculus Rift, Oculus Rift S, Oculus Quest(link), Windows Mixed Reality headsets                  | Browser flags required. [Setup instructions](https://webvr.rocks/chrome) |
 
 ## Setting up a Unity project for WebXR
-
+### First step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="360" >
 
  Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br /><br /> <br />
 
- Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br />
+ Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage`
+ <br />
 Step by step: ` Assets / Import Package / Costom Package..`
 <br /><br /> <br />
  Import all package content.
-   <br /> <br />
- *Note: After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.*
+<br /> <br />
+ *Note: After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert`.*
 <br /> <br /> <br />
+
+### Second step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="360" >
 <br /> 
  Open`Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.
@@ -47,6 +54,7 @@ Step by step: ` Assets / Import Package / Costom Package..`
 *Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
 <br />  <br /> <br />
 
+### Third step
  Next step is to open the packet manager and find `XR Legacy Input Helpers` and install it.
 
  <br /><br /> <br /> <br /><br />  <br /> <br />
@@ -55,6 +63,8 @@ Step by step: ` Assets / Import Package / Costom Package..`
  When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
 
  <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /><br /><br /> <br /> <br /> <br /><br />
+ 
+ ### Last step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/8.png" width="360" >
 
  Last step to prepare project for build is to open `Project Settings` under `Player`  find `Settings for WebGL` and open `Resolution and Presentation` tab. Select the `WebXR` in WebGL Template and also fill in all other required fields.
