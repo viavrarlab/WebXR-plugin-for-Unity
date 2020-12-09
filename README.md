@@ -55,11 +55,12 @@ Open `Project Settings` under `Player`  find Standalone settings and open  `XR S
 <br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /> 
 
 ### Third step
- Open the `package manager` and find `XR Legacy Input Helpers` and install it.
 
- <br />
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/6.png" width="360" >
-<br /><br /> 
+
+ Open the `package manager` and find `XR Legacy Input Helpers` and install it.
+ <br /><br />
+
  When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
 
  <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /><br /><br /> <br />
