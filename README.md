@@ -35,23 +35,23 @@ WebXR has limited support
 ### First step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="360" >
 
- Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br />
+ Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br /><br />
  Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage`
- <br />
+ <br /><br />
 Step by step: ` Assets / Import Package / Costom Package..`
 <br />
  Import all package content.
 <br />
  *Note: After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert`.*
-<br /> <br /> <br />
+<br /> <br /> <br /> <br />
 
 ### Second step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="360" >
 <br /> 
- Open`Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.
+Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.
 <br /> 
 *Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
-<br />  <br /> <br />
+<br />  <br /> <br /><br /> <br /> 
 
 ### Third step
  Next step is to open the packet manager and find `XR Legacy Input Helpers` and install it.
