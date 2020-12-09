@@ -37,10 +37,8 @@ WebXR has limited support
 Step by step: ` Assets / Import Package / Costom Package..`
 <br /><br /> <br />
  Import all package content.
- <br /><br /><br /><br /> <br /> <br />
-  <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="360" >
   
- After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.
+ *Note:After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.*
 <br /> <br /> <br /><br /> <br /> <br /><br /> 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="360" >
 
