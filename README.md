@@ -41,25 +41,27 @@ Step by step: ` Assets / Import Package / Costom Package..`
   <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
   
 * After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.
-
-<br /><br /><br />
-* Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.<br>
-
-*Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
- <br />
- <br />
-
+<br /> <br /> <br /><br /> <br /> <br /><br /> 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="400" >
 
-* Next step is to open the packet manager and find `XR Legacy Input Helpers` and install it.
+* Open`Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.<br>
+
+*Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
+ <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br />
 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/5.png" width="400" >
 
-* When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
+* Next step is to open the packet manager and find `XR Legacy Input Helpers` and install it.
+
+ <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br />
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/6.png" width="400" >
 
-*Last step to prepare project for build is to open `Project Settings` under `Player`  find `Settings for WebGL` and open `Resolution and Presentation` tab. Select the `WebXR` in WebGL Template and also fill in all other required fields.
+* When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
+
+ <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br />
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/8.png" width="400" >
+
+* Last step to prepare project for build is to open `Project Settings` under `Player`  find `Settings for WebGL` and open `Resolution and Presentation` tab. Select the `WebXR` in WebGL Template and also fill in all other required fields.
 
 * Now you are ready to create a project build! :) <br>
  *Note: Of course the Build platform must be selected WebGL!*
