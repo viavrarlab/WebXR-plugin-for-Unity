@@ -43,7 +43,7 @@ Step by step: ` Assets / Import Package / Costom Package..`
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
 
 * Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.<br>
-Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.
+*Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="400" >
 
 * Next step is to open the packet manager and find `XR Legacy Input Helpers` and install it.
@@ -53,9 +53,12 @@ Note: Add Virtual Reality SDKs if it is not done automatically and set `Single P
 * When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/6.png" width="400" >
 
-* Last Step to create Build is 
+*Last step to prepare project for build is to open `Project Settings` under `Player`  find `Settings for WebGL` and open `Resolution and Presentation` tab. Select the `WebXR` in WebGL Template and also fill in all other required fields.
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/8.png" width="400" >
 
+* Now you are ready to create a project build! :) <br>
+ *Note: Of course the Build platform must be selected WebGL!*
+* 
 ## Plugin Input System
 
 day by day
