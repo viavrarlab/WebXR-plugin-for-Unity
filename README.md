@@ -74,7 +74,30 @@ Open `Project Settings` under `Player`  find `Settings for Standalone` and open 
  
 ## Plugin Input System
 
-day by day
+To customize or create a project for WebXR you will need use `WebXRCameraRig` prefab. It can be found at `Assets / WebXR Input Manager DaviisLV/Prefabs / WebXRCameraRig.prefab`. This prefab provides the basic interactions of WebXR and its basic structure is as follows:
+
+```
+WebXRCameraRig - gameObject
+│   
+│   WebXRManager.cs    
+│
+└───────handR - gameObject
+|       |
+│       │   WebXRController.cs
+│       │   WebXRInteractionManagerReduced.cs
+|       |   TurnAround.cs
+│   
+└───────handL - gameObject
+|       |
+│       │   WebXRController.cs
+│       │   WebXRInteractionManagerReduced.cs
+|       |   TurnAround.cs
+|
+└───────Cameras - gameObject
+        │   
+        │   WebXRCamera.cs
+```
+
 
 ## License
 
