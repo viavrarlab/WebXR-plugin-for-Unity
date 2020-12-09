@@ -29,17 +29,24 @@ WebXR has limited support
 
 ## Setting up a Unity project for WebXR
 
-* Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder
+<img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
+
+* Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder.
+
 * Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br>
 Step by step: ` Assets / Import Package / Costom Package..`<br>
 
-<img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
-
 * Import all package content. <br>
+ <br />
+  <br />
+
+
+
+
 
 * After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.<br>
 
-<img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
+<img align="left" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
 
 * Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.<br>
 
