@@ -42,8 +42,7 @@ Step by step: ` Assets / Import Package / Costom Package..`
 
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
 
-* Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick 
-- [x] Virtual Reality Supported.<br>
+* Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.<br>
 Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="400" >
 
