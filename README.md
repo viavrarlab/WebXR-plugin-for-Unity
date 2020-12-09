@@ -52,7 +52,7 @@ Step by step: ` Assets / Import Package / Costom Package..`
 Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.
 <br /> 
 *Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
-<br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /> 
+<br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> 
 
 ### Third step
 
