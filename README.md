@@ -39,9 +39,7 @@ WebXR has limited support
  Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br /><br />
  Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage`
  <br /><br />
-Step by step: ` Assets / Import Package / Costom Package..`
-<br />
- Import all package content.
+Import all package content ` Assets / Import Package / Costom Package..`
 <br />
  *Note: After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert`.*
 <br /> <br /> <br /> <br />
@@ -50,7 +48,7 @@ Step by step: ` Assets / Import Package / Costom Package..`
 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="360" >
 
-Open `Project Settings` under `layer`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.
+Open `Project Settings` under `Player`  find `Settings for Standalone` and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.
 <br /> 
 *Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
 <br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> 
@@ -59,7 +57,7 @@ Open `Project Settings` under `layer`  find Standalone settings and open  `XR Se
 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/6.png" width="360" >
 
- Open the `package manager` and find `XR Legacy Input Helpers` and install it.
+ Open `package manager` and find `XR Legacy Input Helpers` package - install it.
  <br /><br />
 
  When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
@@ -70,7 +68,7 @@ Open `Project Settings` under `layer`  find Standalone settings and open  `XR Se
 
  Last step to prepare project for build is to open `Project Settings` under `Player`  find `Settings for WebGL` and open `Resolution and Presentation` tab. Select the `WebXR` in WebGL Template and also fill in all other required fields.
  <br /> <br /> 
- Now you are ready to create a project build! :smiley: <br />
+ Now you are ready to create WebXR project build! :smiley: <br />
  *Note: Of course the Build platform must be selected WebGL!*
   <br /> <br />   <br /> <br />   <br /> <br />  <br /> <br /> 
  
