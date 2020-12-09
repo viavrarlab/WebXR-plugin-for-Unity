@@ -29,23 +29,31 @@ WebXR has limited support
 
 ## Setting up a Unity project for WebXR
 
-1. Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder
-2. Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br>
-
+* Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder
+* Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br>
 Step by step: ` Assets / Import Package / Costom Package..`
 
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
 
+* Import all package content
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/2.png" width="400" >
 
+* After package is imported you can run test Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.
+
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
+
+* Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick - [x] Virtual Reality Supported.<br>
+Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="400" >
 
+* Next step is to open the packet manager and find `XR Legacy Input Helpers` and install it.
+
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/5.png" width="400" >
+
+* When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/6.png" width="400" >
 
-<img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/7.png" width="400" >
-
+* Last Step to create Build is 
 <img src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/8.png" width="400" >
 
 ## Plugin Input System
