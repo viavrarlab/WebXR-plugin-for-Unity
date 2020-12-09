@@ -16,7 +16,7 @@ This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/M
   - [Plugin & Input System](#plugin--input-system)
     - [WebXR prefab](#webxr-prefab)
     - [Input System](#input-system)
-    - [UI Input](#ui-input)
+    - [UI Input System](#ui-input-system)
   - [License](#license)
 
 
@@ -78,7 +78,7 @@ Open `Project Settings` under `Player`  find `Settings for Standalone` and open 
 ## Plugin & Input System
 ### WebXR prefab
 
-To customize or create a project for WebXR you will need use `WebXRCameraRig` prefab. It can be found at `Assets / WebXR Input Manager DaviisLV/Prefabs / WebXRCameraRig.prefab`. This prefab provides the basic interactions of WebXR and its basic code structure is as follows:
+To customize or create a project for WebXR you will need use `WebXRCameraRig.prefab`. It can be found at `Assets / WebXR Input Manager DaviisLV/Prefabs / WebXRCameraRig.prefab`. This prefab provides the basic interactions of WebXR and its basic code structure is as follows:
 
 ```
 WebXRCameraRig - gameObject
@@ -90,7 +90,9 @@ WebXRCameraRig - gameObject
 │       │   WebXRController.cs
 │       │   WebXRInteractionManagerReduced.cs
 |       |   TurnAround.cs
-│   
+|       |
+│       └───────VR_Pointer(UI) - gameObject
+|
 └───────handL - gameObject
 |       |
 │       │   WebXRController.cs
@@ -104,7 +106,7 @@ WebXRCameraRig - gameObject
 ### Input System
 
 To add interaction - controller input you need to use `WebXRInteractionManagerReduced.cs` script. It is added to bouth hands.
-<img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="360" >
+<img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="360" >
 
 Scripts convert XR Controller inputs to Unity Events, which means that the user can define individual actions for each hand. The following inputs are available:
 * Trigger Down
@@ -116,7 +118,11 @@ Scripts convert XR Controller inputs to Unity Events, which means that the user 
 * Touchpad/Joystick Down
 * Touchpad/Joystick Up
 
-### UI Input
+### UI Input System
+To interact with Unity UI when using WebXR you need to use `VR_Pointer(UI).prefab` un `VR_EventSystem.prefab` they can be found here `Assets / WebXR Input Manager DaviisLV / Prefabs / ..`. <br />
+ `VR_Pointer(UI).prefab` is alrady added to `WebXRCameraRig.prefab` right hand and it works only with one hand for now. Also `VR_EventSystem.prefab` have to be in scene and `StandaloneInputModule` removed form scene.
+
+
 
 ## License
 
