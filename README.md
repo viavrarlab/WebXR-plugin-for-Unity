@@ -2,10 +2,10 @@
 
 This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/MozillaReality/unity-webxr-export)
 
-## Getting started
+## Tabel of Content
 
 - [WebXR-plugin-for-Unity](#webxr-plugin-for-unity)
-  - [Getting started](#getting-started)
+  - [Tabel of Content](#tabel-of-content)
   - [Compatibility](#compatibility)
     - [Browser Compatibility](#browser-compatibility)
   - [Setting up a Unity project for WebXR](#setting-up-a-unity-project-for-webxr)
