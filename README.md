@@ -31,26 +31,23 @@ WebXR has limited support
 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="400" >
 
-* Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder.
+* Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br /><br /> <br />
 
-* Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br>
-Step by step: ` Assets / Import Package / Costom Package..`<br>
+* Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` <br />
+Step by step: ` Assets / Import Package / Costom Package..`
+<br /><br /> <br />
+* Import all package content.
+ <br /><br /><br /><br /> <br />
+  <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
+  
+* After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.
 
-* Import all package content. <br>
- <br />
-  <br />
-
-
-
-
-
-* After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert `.<br>
-
-<img align="left" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/3.png" width="400" >
-
+<br /><br /><br />
 * Open `Project Settings` under `Player`  find Standalone settings and open  `XR Settings` tab. Under XR Settings tab tick Virtual Reality Supported.<br>
 
 *Note: Add Virtual Reality SDKs if it is not done automatically and set `Single Pass` sterio rendering Mode.*
+ <br />
+ <br />
 
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/4.png" width="400" >
 
