@@ -13,7 +13,10 @@ This is a project based on Mozilla's [Unity WebXR Exporter](https://github.com/M
     - [Second step](#second-step)
     - [Third step](#third-step)
     - [Last step](#last-step)
-  - [Plugin Input System](#plugin-input-system)
+  - [Plugin & Input System](#plugin--input-system)
+    - [WebXR prefab](#webxr-prefab)
+    - [Input System](#input-system)
+    - [UI Input](#ui-input)
   - [License](#license)
 
 
@@ -72,9 +75,10 @@ Open `Project Settings` under `Player`  find `Settings for Standalone` and open 
  *Note: Of course the Build platform must be selected WebGL!*
   <br /> <br />   <br /> <br />   <br /> <br />  <br /> <br /> 
  
-## Plugin Input System
+## Plugin & Input System
+### WebXR prefab
 
-To customize or create a project for WebXR you will need use `WebXRCameraRig` prefab. It can be found at `Assets / WebXR Input Manager DaviisLV/Prefabs / WebXRCameraRig.prefab`. This prefab provides the basic interactions of WebXR and its basic structure is as follows:
+To customize or create a project for WebXR you will need use `WebXRCameraRig` prefab. It can be found at `Assets / WebXR Input Manager DaviisLV/Prefabs / WebXRCameraRig.prefab`. This prefab provides the basic interactions of WebXR and its basic code structure is as follows:
 
 ```
 WebXRCameraRig - gameObject
@@ -97,7 +101,22 @@ WebXRCameraRig - gameObject
         │   
         │   WebXRCamera.cs
 ```
+### Input System
 
+To add interaction - controller input you need to use `WebXRInteractionManagerReduced.cs` script. It is added to bouth hands.
+<img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="360" >
+
+Scripts convert XR Controller inputs to Unity Events, which means that the user can define individual actions for each hand. The following inputs are available:
+* Trigger Down
+* Trigger Up
+* Primary Button Down
+* Primary Button Up
+* Grip Down
+* Grip Up
+* Touchpad/Joystick Down
+* Touchpad/Joystick Up
+
+### UI Input
 
 ## License
 
