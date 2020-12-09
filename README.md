@@ -65,7 +65,7 @@ Open `Project Settings` under `Player`  find `Settings for Standalone` and open 
 
  When `XR Legacy Input Helpers` is installed you need to set up inputs. To do that click `Assets / Seed XR Input Binddings`. This will generate all the necessary inputs.
 
- <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /><br /><br />
+ <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /> <br /><br /> <br /> 
  ### Last step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/8.png" width="360" >
 
@@ -73,7 +73,7 @@ Open `Project Settings` under `Player`  find `Settings for Standalone` and open 
  <br /> <br /> 
  Now you are ready to create WebXR project build! :smiley: <br />
  *Note: Of course the Build platform must be selected WebGL!*
-  <br /> <br />   <br /> <br />   <br /> <br />  <br /> <br /> 
+  <br /> <br />   <br /> <br />   <br /> <br />  <br /> <br />  <br /> 
  
 ## Plugin & Input System
 ### WebXR prefab
