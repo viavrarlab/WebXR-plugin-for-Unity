@@ -35,14 +35,13 @@ WebXR has limited support
 ### First step
 <img align="right" src="https://github.com/viavrarlab/WebXR-plugin-for-Unity/blob/main/WebXR%20Plugin/images/1.png" width="360" >
 
- Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br /><br /> <br />
-
+ Download `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage` from a [WebXR Plugin](WebXR%20Plugin/V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage) folder. <br />
  Import `V4WebXR-InputManager(WithWebXR)DaviisLV.unitypackage`
  <br />
 Step by step: ` Assets / Import Package / Costom Package..`
-<br /><br /> <br />
+<br />
  Import all package content.
-<br /> <br />
+<br />
  *Note: After package is imported you can chekout Demo Secene `WebXR` it is located `Assets / WebXR / Samples / Desert`.*
 <br /> <br /> <br />
 
